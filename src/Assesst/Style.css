@@ -153,6 +153,14 @@ opacity: 0px;
     margin-right: 60px;
     width: 150px;
 }
+@media screen and (max-width:600px){
+    .nav-tabs .nav-link{
+        margin-right: 40px;
+        width: 100px;
+
+    }
+    
+}
   
 .nav-tabs .nav-link.active {
     color: #E7760D; 
