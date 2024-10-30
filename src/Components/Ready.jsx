@@ -35,7 +35,7 @@ const Ready =()=>{
                     </Col>
                 </Row>
 
-                <Row className=" video_page mt-5 p-5" style={{backgroundColor:"#072F57"}}>
+                {/* <Row className=" video_page mt-5" style={{backgroundColor:"#072F57"}}>
                     <Col md={6} className=" image-container">
                     <img src={video}  alt="Background" className="background-image"/>
                     <img src={youtube} alt="Overlay" className="overlay-image"/>
@@ -62,7 +62,7 @@ const Ready =()=>{
 
                     </Col>
 
-                </Row>
+                </Row> */}
             </Container>
 
         </div>

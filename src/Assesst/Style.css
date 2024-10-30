@@ -111,13 +111,19 @@
 }
 .video_page{
     width: 100%;
-height: 100%;
-top: 1113px;
-left: 98px;
-gap: 0px;
-border-radius: 5px 0px 0px 0px;
-opacity: 0px;
-
+    height: 100%;
+    top: 1113px;
+    left: 98px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    padding: 3rem;
+}
+@media screen and (max-width:700px) {
+    .video_page{
+        padding: 1.5rem;
+    }
+    
 }
 .image-container {
     position: relative;
@@ -156,8 +162,12 @@ opacity: 0px;
 @media screen and (max-width:600px){
     .nav-tabs .nav-link{
         margin-right: 40px;
-        width: 100px;
+        width: 80px;
+        display: flex;
 
+    }
+    .nav{
+        flex-wrap: nowrap;
     }
     
 }
